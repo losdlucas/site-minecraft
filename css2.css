@@ -1,0 +1,31 @@
+body {
+    background-image: url(imagens/pattern.png);
+    background-repeat: repeat;
+}
+.itens-container {
+    display: flex;
+    flex: 1;        
+    padding: 20px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.itens {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.itens img {
+    width: 200px;
+    height: auto;
+}
+.itens p {
+    margin-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+}
